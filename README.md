@@ -1,4 +1,4 @@
-
+ 
 
 # `XLICON-V4-MD`
 <br>
@@ -94,11 +94,11 @@ Click On The Link To Donate ME...
 
 2. Get Creds Json (SERVER 1)
     <br>
-<a href='https://xlicon-v3-web.onrender.com' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://xlicon-web-pair-code.onrender.com/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. Get Creds Json (SERVER 2)
     <br>
-<a href='https://replit.com/@S4SalmanYt/XLICON-V3-PAIRING' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@S4SalmanYt/XLICON-PAIR-CODE' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 ## 🚀 `Deployments`
@@ -269,19 +269,10 @@ npm start
 
 ## `For Termux`
 ```bash
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/<your gitHub Username>/XLICON-V4-MD
-cd XLICON-V4-MD
-npm install
+apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg install bash -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget -y && pkg install imagemagick -y && pkg install yarn && termux-setup-storage
+cd /sdcard
+cd bot folder name
+yarn install
 npm start
 ```
 
